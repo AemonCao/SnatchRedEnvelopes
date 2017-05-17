@@ -1,0 +1,29 @@
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+</head>
+
+<body>
+  <span id="tips">这里显示各种提示</span>
+  </br>
+  <span>红包金额:</span>
+  <input id="sum_money" type="number" min="0.01" max="1000" step="0.01" value="50"></input>
+  </br>
+  <span>红包个数:</span>
+  <input id="sum_people" type="number" min="1" max="1000" step="1" value="10"></input>
+  </br>
+  <button id="all_in" type="button">一次全抢完</button>
+  <button id="count" type="button">抢1000000次查看各个顺序的全场最佳次数（F12）</button>
+
+  <div>
+    <div id="list">
+    </div>
+  </div>
+  <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
